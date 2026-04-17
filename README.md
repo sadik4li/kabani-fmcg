@@ -145,3 +145,5 @@ The dataset is sourced from **SQL Server** and includes:
 
 
 ---
+
+[📊 View Dashboard PDF](https://github.com/your-username/your-repo/blob/main/Kabani_Dashboard.pdf)
