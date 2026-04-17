@@ -1,1 +1,147 @@
-🛒 Kabani FMCG Performance Analytics Dashboard📁 Project OverviewThis project features a comprehensive Power BI dashboard designed to monitor and analyze the performance of Kabani FMCG across various business dimensions including sales, collections, returns, and promotional effectiveness.By importing data directly from SQL Server, the dashboard provides a real-time, multi-page interface for stakeholders to track branch performance, brand health, and customer trends. The project utilizes advanced DAX modeling and interactive visual storytelling to transform raw FMCG data into actionable business intelligence.📊 Dashboard Highlights📌 Key Performance Indicators (KPIs)Total Sales: ₹1,914.7M Total Collection: ₹1,990.7M Sales Return %: 4.19% Total Customers: 9,727 Promotional Sales Share: 69.0% (₹1,622.7M) 🎛 Filters and NavigationMulti-Page Architecture: Dedicated views for Sales, Collections, Returns, Branch Performance, Sales Promotions, Top/Worst Products, Forecasts, and Brand/Customer-wise insights.Dynamic Slicers: Interactive filtering by Branch, Month, Brand, and CategoryName across all report pages.📈 Visualizations & Analysis💰 Sales & Collection TrendsMonthly Sales Volatility: Line charts track total sales by year and month, showing peaks such as ₹169M in September 2025.Collection Breakdown: Donut charts differentiate between Cash Collection (93.57%) and Cheque Balance Pending (6.43%).Branch Ranking: Tables and charts identify top-performing branches, such as Limar Trading Key Outlets leading in total collection.📦 Product & Brand PerformanceTop 10 Products: Bar charts highlight high-volume items like Kabani XL 900 GM ($1037.2K$).Category Analysis: Breakdown of sales by Detergents (₹849.16M), Liquid Detergent (₹606.73M), and Dish Wash.Brand Dominance: Visualizes sales share across brands like Soap, Rinse, Rose, and Active Rose.📉 Returns & ForecastingReturn Monitoring: Tracks Sales Return % by Month, identifying spikes such as 6.13% in March.Predictive Analytics: 3-month forecasts for categories and products to assist in inventory and supply chain planning.📂 Dataset OverviewThe dataset includes granular FMCG metrics imported from SQL Server:Sales Data: Daily, monthly, and yearly revenue figures.Logistics & Returns: Branch-wise return volumes and percentages.Promotional Data: Comparison of promotional vs. non-promotional sales performance.Customer Metadata: Total customer count, growth percentages, and top customers by sales volume.🛠 Technical NotesPlatform: Microsoft Power BIData Source: Direct SQL Server ImportData Modeling: Star schema with complex relationships between Branch, Brand, and Product dimensions.DAX Measures:Growth %: Calculating month-over-month customer and sales growth.Contribution %: Measuring the impact of promotions on total revenue.Forecasting: Applying safe growth percentages to historical data for future projections.Design: High-contrast dark theme optimized for executive presentation and data density.
+# 🛒 Kabani FMCG Performance Analytics Dashboard  
+
+## 📁 Project Overview  
+
+This project delivers a comprehensive **Power BI dashboard** designed to monitor and analyze Kabani FMCG business performance across key operational areas, including **sales, collections, returns, and promotional effectiveness**.  
+
+By integrating data directly from **SQL Server**, the dashboard provides a near real-time, multi-page analytical environment that enables stakeholders to track **branch performance, product trends, and customer behavior** efficiently.  
+
+The solution leverages **advanced DAX calculations, star schema data modeling, and interactive visual storytelling** to transform raw FMCG data into actionable business insights.  
+
+---
+
+## 📊 Dashboard Highlights  
+
+### 📌 Key Performance Indicators (KPIs)  
+
+- **Total Sales** → ₹1,914.7M  
+- **Total Collection** → ₹1,990.7M  
+- **Sales Return %** → 4.19%  
+- **Total Customers** → 9,727  
+- **Promotional Sales Share** → 69.0% (₹1,622.7M)  
+
+---
+
+### 🎛 Filters and Navigation  
+
+- **Multi-Page Architecture**:  
+  - Sales  
+  - Collections  
+  - Returns  
+  - Branch Performance  
+  - Sales Promotions  
+  - Top / Worst Products  
+  - Forecast Analysis  
+  - Brand & Customer Insights  
+
+- **Dynamic Slicers**:  
+  - Branch  
+  - Month  
+  - Brand  
+  - Category  
+
+- Interactive cross-filtering and drill-down across all visuals  
+
+---
+
+## 📈 Visualizations & Analysis  
+
+### 💰 Sales & Collection Insights  
+
+- **Monthly Sales Trend (Line Chart)**  
+  - Tracks volatility and seasonal patterns  
+  - Peak observed: **₹169M in September 2025**  
+
+- **Collection Breakdown (Donut Chart)**  
+  - Cash Collection: **93.57%**  
+  - Cheque Pending: **6.43%**  
+
+- **Branch Performance Analysis**  
+  - Identifies top-performing branches  
+  - Example: *Limar Trading Key Outlets* leading in collections  
+
+---
+
+### 📦 Product & Brand Performance  
+
+- **Top 10 Products (Bar Chart)**  
+  - Highlights best-selling SKUs  
+  - Example: *Kabani XL 900 GM* (₹1037.2K)  
+
+- **Category-wise Sales Distribution**  
+  - Detergents: ₹849.16M  
+  - Liquid Detergent: ₹606.73M  
+  - Dish Wash: Remaining share  
+
+- **Brand Performance Analysis**  
+  - Soap  
+  - Rinse  
+  - Rose  
+  - Active Rose  
+
+---
+
+### 📉 Returns & Forecasting  
+
+- **Sales Return % by Month**  
+  - Identifies operational issues  
+  - Peak return: **6.13% in March**  
+
+- **3-Month Forecasting**  
+  - Predicts category & product demand  
+  - Supports inventory and supply chain planning  
+
+---
+
+## 📂 Dataset Overview  
+
+The dataset is sourced from **SQL Server** and includes:  
+
+- Sales Transactions (Daily, Monthly, Yearly)  
+- Collection Data (Cash, Cheque, Pending)  
+- Returns Data (Branch-wise %)  
+- Product & Brand Details  
+- Customer Metrics (Count, Growth, Top Customers)  
+- Promotional vs Non-Promotional Sales  
+
+---
+
+## 🚀 Use Cases  
+
+- Sales Performance Monitoring  
+- Collection Efficiency Tracking  
+- Product & Brand Performance Analysis  
+- Promotion Effectiveness Measurement  
+- Return Rate Monitoring  
+- Demand Forecasting & Inventory Planning  
+- Customer Growth & Contribution Analysis  
+
+---
+
+## 🛠 Technical Notes  
+
+- **Platform** → Microsoft Power BI  
+- **Data Source** → SQL Server (Direct Import)  
+- **Data Modeling** → Star Schema  
+
+### DAX Measures Used  
+
+- Sales & Collection Aggregations  
+- Month-over-Month Growth %  
+- Contribution % (Promotions)  
+- Return % Calculations  
+- Time Intelligence (Monthly / Yearly Trends)  
+- Forecasting Logic for future projections  
+
+---
+
+## 🎨 Design & Interactivity  
+
+- High-contrast **dark theme** for better readability  
+- KPI cards for executive-level insights  
+- Interactive drill-down and cross-filtering  
+- Multi-page structured navigation  
+- Clean, business-focused visual layout  
+
+
+---
