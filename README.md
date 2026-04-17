@@ -146,4 +146,4 @@ The dataset is sourced from **SQL Server** and includes:
 
 ---
 
-[📊 View Dashboard PDF](https://github.com/your-username/your-repo/blob/main/Kabani_Dashboard.pdf)
+[📊 View Dashboard PDF]([https://github.com/your-username/your-repo/blob/main/Kabani_Dashboard.pdf](https://github.com/sadik4li/kabani-fmcg/blob/main/KABANI%20FMCG%20DASHBOARD.pdf))
